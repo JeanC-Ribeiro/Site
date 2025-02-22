@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400..700;1,400..700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: content-box;
+}
+
+body {
+    background-color: #f4f0ea;
+    color: black;
+    font-family: "Cabin", serif;
+    font-weight: 400px;
+
+}
+
+header {
+    padding: 2rem;
+    background: linear-gradient(90deg, rgba(229, 229, 233, 1) 0%, rgba(2, 198, 238, 1) 91%);
+    text-align: center;
+}
+
+main {
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    gap: 2rems;
+
+}
+
+h2 {
+    font-size: 1.2rem;
+}
+
+input[type="radio"],
+input[type="checkbox"] {
+    accent-color: black;
+}
+
+input[type="text"],
+input[type="password"],
+input[type="date"],
+input[type="nome"],
+input[type="email"] {
+    width: 99%;
+    padding: 0.6rem;
+    border: 2px solid #ccc;
+    outline: none;
+    border-radius: 5px;
+
+}
+
+select {
+    cursor: pointer;
+    border-radius: 5px;
+    outline: none;
+}
+
+img {
+    width: 7rem;
+    border-radius: 5px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    border-radius: 5px;
+}
+
+th {
+    background: linear-gradient(90deg, rgba(229, 229, 233, 1) 0%, rgba(2, 198, 238, 1) 91%);
+    padding: 1rem;
+}
+
+td {
+    padding: 1rem;
+    text-align: center;
+}
+
+tfoot td {
+    background-color: rgb(137, 199, 214);
+}
+
+details {
+    background-color: rgb(137, 199, 214);
+    border-radius: 5px;
+    padding: 1rem;
+}
+
+summary {
+    margin: 0.5rem;
+    cursor: pointer;
+}
+
+ol {
+    margin-left: 1.5rem;
+}
+
+ol li {
+    padding: 0.2rem;
+}
+
+fieldset {
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    padding: 1rem;
+}
+
+legend {
+    padding: 0 0.5rem;
+}
+
+textarea {
+    border-radius: 5px;
+    outline: none;
+}
+
+button {
+    background-color: rgb(137, 199, 214);
+    border: none;
+    padding: 0.9rem;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+footer {
+    background: linear-gradient(90deg, rgba(229, 229, 233, 1) 0%, rgba(2, 198, 238, 1) 91%);
+    padding: 2rem;
+    text-align: center;
+}
